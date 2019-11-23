@@ -22,5 +22,7 @@ a simple convolutional neural network in PyTorch and train it to recognize handw
         x = F.relu(self.fc1(x))
         x = self.fc2(x)
         return F.log_softmax(x, dim=1)
+## Plot Of Training Loss
+![Loss](loss.png)
 ## Sample Predition
 ![SAMPLE Prediction](prediction.png)
